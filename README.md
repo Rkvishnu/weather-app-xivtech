@@ -1,4 +1,4 @@
-# Weather App Xivo
+# Weather App 
 
 A simple web application to fetch real-time weather data for multiple cities.
 
