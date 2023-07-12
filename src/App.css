@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.input-container {
+  size: '4px';
+  margin-bottom: 10px;
+}
+
+.weather-results {
+  margin-top: 20px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+p {
+  margin: 10px 0;
+}
