@@ -67,7 +67,10 @@ cd backend
 npm install
 ```
 
-4. Inside the server.js file replace  API_KEY from the WeatherBit website here:
+4.  
+5. Create an .env file inside the /backend folder
+   API_KEY='your api key'
+ 
 
 https://www.weatherbit.io/account/dashboard
 
