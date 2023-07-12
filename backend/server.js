@@ -16,7 +16,7 @@ app.post("/getweather", async (req, res) => {
     const weatherData = {};
     for (const city of cities) {
       const temp = await getWeatherData(city);
-      weatherData[city] = `${temp}C`;
+      weatherData[city] = `${temp}°C`;
     }
 
     res.json({ weather: weatherData });
